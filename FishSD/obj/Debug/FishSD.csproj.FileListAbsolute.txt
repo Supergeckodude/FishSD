@@ -1,0 +1,2 @@
+c:\users\tmalkus\documents\visual studio 2012\Projects\FishSD\FishSD\bin\Debug\FishSD.exe.config
+c:\users\tmalkus\documents\visual studio 2012\Projects\FishSD\FishSD\obj\Debug\FishSD.csprojResolveAssemblyReference.cache
