@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Game Runners\Runner.cs" />
     <Compile Include="Helpers\InitializationHelper.cs" />
     <Compile Include="Objects\Fish.cs" />
     <Compile Include="Objects\GameObject.cs" />
