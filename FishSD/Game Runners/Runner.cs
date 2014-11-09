@@ -30,6 +30,10 @@ namespace FishSD.Game_Runners
                 g.Draw();
             }
         }
+        public void Initialize()
+        {
+
+        }
     }
 
 }
