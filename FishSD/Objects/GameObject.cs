@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,3 +26,36 @@ namespace FishSD.Objects
         public void Initialize();
     }
 }
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Drawing;
+using System.Windows;
+using System.Windows.Forms;
+
+namespace FishSD.Objects
+{
+    class GameObject
+    {
+        public GameObject()
+        {
+
+        }
+        public void Update()
+        {
+
+        }
+        public void Draw(PaintEventArgs e)
+        {
+            
+        }
+        public void Initialize()
+        {
+
+        }
+    }
+}
+>>>>>>> origin/master

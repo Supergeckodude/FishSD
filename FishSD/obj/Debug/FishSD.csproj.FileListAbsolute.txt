@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 c:\users\tmalkus\documents\visual studio 2012\Projects\FishSD\FishSD\bin\Debug\FishSD.exe.config
 c:\users\tmalkus\documents\visual studio 2012\Projects\FishSD\FishSD\obj\Debug\FishSD.csprojResolveAssemblyReference.cache
 C:\Users\Cat\Documents\GitHub\FishSD\FishSD\bin\Debug\FishSD.exe.config
@@ -6,3 +7,13 @@ C:\Users\Cat\Documents\GitHub\FishSD\FishSD\bin\Debug\FishSD.exe
 C:\Users\Cat\Documents\GitHub\FishSD\FishSD\bin\Debug\FishSD.pdb
 C:\Users\Cat\Documents\GitHub\FishSD\FishSD\obj\Debug\FishSD.exe
 C:\Users\Cat\Documents\GitHub\FishSD\FishSD\obj\Debug\FishSD.pdb
+=======
+c:\users\tmalkus\documents\visual studio 2012\Projects\FishSD\FishSD\bin\Debug\FishSD.exe.config
+c:\users\tmalkus\documents\visual studio 2012\Projects\FishSD\FishSD\obj\Debug\FishSD.csprojResolveAssemblyReference.cache
+C:\Users\Cat\Documents\GitHub\FishSD\FishSD\bin\Debug\FishSD.exe.config
+C:\Users\Cat\Documents\GitHub\FishSD\FishSD\obj\Debug\FishSD.csprojResolveAssemblyReference.cache
+C:\Users\Cat\Documents\GitHub\FishSD\FishSD\bin\Debug\FishSD.exe
+C:\Users\Cat\Documents\GitHub\FishSD\FishSD\bin\Debug\FishSD.pdb
+C:\Users\Cat\Documents\GitHub\FishSD\FishSD\obj\Debug\FishSD.exe
+C:\Users\Cat\Documents\GitHub\FishSD\FishSD\obj\Debug\FishSD.pdb
+>>>>>>> origin/master
