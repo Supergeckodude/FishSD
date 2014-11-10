@@ -12,7 +12,10 @@ namespace FishSD.Objects
         public bool Alive { get; set; }
         public double Energy { get; set; }
         protected Dictionary<string, double> Attributes { get; set; }
+<<<<<<< HEAD
         public int range = 100;
+=======
+>>>>>>> parent of 4130e0e... Added Cat's shitty shit
 
         public Fish(Location location) : base(location)
         {
@@ -36,6 +39,7 @@ namespace FishSD.Objects
             g.Alive = false;
             Energy += g.Energy * Attributes["energy-gain"];
         }
+<<<<<<< HEAD
         public void Update()
         {
             if (!Alive) return;
@@ -50,11 +54,9 @@ namespace FishSD.Objects
                 this.LocationX = 0;
             if (LocationY > range)
                 this.LocationY = 0;
+=======
+>>>>>>> parent of 4130e0e... Added Cat's shitty shit
 
-            int[] location = { LocationX, LocationY };
-            return location;
-
-        }
         
     }
 }
