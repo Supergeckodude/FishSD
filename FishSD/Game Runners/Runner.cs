@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FishSD.Objects;
+using System.Windows.Forms;
 
 namespace FishSD.Game_Runners
 {
@@ -14,6 +15,7 @@ namespace FishSD.Game_Runners
         public Runner()
         {
             Objects = new List<GameObject>();
+
         }
 
         public void Update()
@@ -23,16 +25,21 @@ namespace FishSD.Game_Runners
                 g.Update();
             }
         }
-        public void Draw()
+        public void Draw(PaintEventArgs e)
         {
             foreach (GameObject g in Objects)
             {
-                g.Draw();
+                
+                g.Draw(e);
             }
         }
         public void Initialize()
         {
+            foreach (GameObject g in Objects)
+            {
+                g.Initialize();
 
+            }
         }
     }
 
