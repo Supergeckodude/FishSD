@@ -11,6 +11,7 @@ namespace FishSD.Objects
     {
         public Minnow_Fish() : base()
         {
+
         }
         public void Initilize()
         {

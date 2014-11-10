@@ -8,6 +8,7 @@ namespace FishSD.Objects
 {
     class GameObject
     {
+        Location location;
         public GameObject()
         {
 
