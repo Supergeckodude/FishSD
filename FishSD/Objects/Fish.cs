@@ -12,7 +12,7 @@ namespace FishSD.Objects
         public double Energy { get; set; }
         protected Dictionary<string, double> Attributes { get; set; }
 
-        public Fish() : base()
+        public Fish(Location location) : base(location)
         {
 
         }

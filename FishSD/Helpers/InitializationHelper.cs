@@ -9,6 +9,7 @@ namespace FishSD.Helpers
 {
     static class InitializationHelper
     {
+        static int maxSize = 100;
         public static Dictionary<string, double> Initilize_Minnow_Attributes()
         {
             return new Dictionary<string, double> { { "fecundity", 0.05 }, { "energy-gain", .3 }, { "energy-loss-rate", .2 }, { "speed", 2 }, { "max-energy", 30 }, { "start-energy", 10 } };
@@ -24,7 +25,7 @@ namespace FishSD.Helpers
 
             for (int x = 0; x < 50; x++)
             {
-                objects.Add(new Minnow_Fish
+                objects.Add(new Minnow_Fish(new Location(maxSize)));
             }
 
             return objects;

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FishSD.Objects;
+using FishSD.Helpers;
 
 namespace FishSD.Game_Runners
 {
@@ -13,7 +14,7 @@ namespace FishSD.Game_Runners
 
         public Runner()
         {
-            Objects = new List<GameObject>();
+            Objects = InitilizationHelper.Initialize_GameRunner_GameObjects();
         }
 
         public void Update()

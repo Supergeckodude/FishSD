@@ -9,7 +9,7 @@ namespace FishSD.Objects
 {
     class Minnow_Fish : Fish
     {
-        public Minnow_Fish() : base()
+        public Minnow_Fish(Location location) : base(location)
         {
 
         }

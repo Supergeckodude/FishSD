@@ -9,10 +9,11 @@ namespace FishSD.Objects
     class GameObject
     {
         Location location;
-        public GameObject()
+        public GameObject(Location location)
         {
-
+            this.location = location;
         }
+
         public void Update()
         {
 
