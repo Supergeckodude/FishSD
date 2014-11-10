@@ -36,6 +36,17 @@ namespace FishSD.Objects
             g.Alive = false;
             Energy += g.Energy * Attributes["energy-gain"];
         }
+        public void Draw(PaintEventArgs e)
+        {
+            Image newImage = Image.FromFile("fathead1.jpg");
+
+            // Create coordinates for upper-left corner of image. 
+            int x = locationX;
+            int y = locationY;
+
+            // Draw image to screen.
+            e.Graphics.DrawImage(newImage, x, y);
+        }
       
         
     }
