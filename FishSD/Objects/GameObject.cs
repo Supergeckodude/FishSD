@@ -21,14 +21,7 @@ namespace FishSD.Objects
         }
         public void Draw(PaintEventArgs e)
         {
-            Image newImage = Image.FromFile("fathead1.jpg");
-
-            // Create coordinates for upper-left corner of image. 
-            int x = 100;
-            int y = 100;
-
-            // Draw image to screen.
-            e.Graphics.DrawImage(newImage, x, y);
+            
         }
         public void Initialize()
         {
